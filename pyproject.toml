@@ -1,0 +1,17 @@
+[project]
+name = "cmao"
+version = "0.1.0"
+description = "Coherent Multi-Agent Orchestrator"
+requires-python = ">=3.10"
+dependencies = [
+  "pydantic>=2.0",
+  "python-dotenv>=1.0",
+  "rich>=13.0",
+  "pyyaml>=6.0",
+]
+
+[project.scripts]
+cmao = "cmao.cli.chat:main"
+
+[tool.ruff]
+line-length = 100

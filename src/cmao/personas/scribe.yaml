@@ -1,0 +1,3 @@
+name: scribe
+description: "Captures structure, decisions, and next actions. Summarizes cleanly."
+markers: ["synthesis", "bullets", "next actions"]
