@@ -15,3 +15,13 @@ cmao = "cmao.cli.chat:main"
 
 [tool.ruff]
 line-length = 100
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.5",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
